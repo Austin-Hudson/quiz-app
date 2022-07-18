@@ -62,11 +62,35 @@ export default {
 <style scoped>
 .quiz-header {
   color: #565656;
+  width: 1200px;
 }
 .submit-btn {
   background: #1a721a;
   color: white;
   padding: 8px 15px;
   border-radius: 4px;
+}
+@media (max-width: 1024px){
+
+  .quiz-header {
+    width: 800px;
+  }
+}
+
+@media (max-width: 768px){
+
+  .quiz-header {
+    width: 600px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px){
+
+  .quiz-header {
+    font-size: 18px;
+    margin-left: 5px;
+    width: 320px;
+  }
 }
 </style>

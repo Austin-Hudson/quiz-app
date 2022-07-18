@@ -46,4 +46,15 @@
   .results, .percentage {
     font-size: 24px;
   }
+
+  @media (max-width: 320px){
+
+    .results-container {
+      font-size: 18px;
+    }
+
+    .results, .percentage {
+      font-size: 18px;
+    }
+  }
 </style>

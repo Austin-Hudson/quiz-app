@@ -51,6 +51,7 @@
 <style scoped>
   .question-container {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: white;
     height: 175px;
     width: 1200px;
     padding: 10px;
@@ -95,6 +96,14 @@
     border-radius: 4px;
   }
 
+  @media (max-width: 1024px){
+
+    .question-container {
+      width: 800px;
+    }
+  }
+
+
   @media (max-width: 768px){
 
     .question-container {
@@ -107,6 +116,8 @@
     .question-container {
       width: 300px;
       height: 300px;
+      padding: 5px;
+      margin: 8px;
     }
   }
 
