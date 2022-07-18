@@ -69,6 +69,7 @@ export default {
   color: white;
   padding: 8px 15px;
   border-radius: 4px;
+  margin-bottom: 10px;
 }
 @media (max-width: 1024px){
 
